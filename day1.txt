@@ -1,0 +1,25 @@
+1. class variables acn be accessed inside the method using th keyword self.
+2.instance variables can be accessed inside the class using object_name.variable_name
+3.Variables inside methods are having local scope . We cannot access them outside the class.
+
+
+Encapsulation:
+1.It provides data security.
+types:1.Public   2.Private   3. Protected
+--protected: single underscore a (_a)
+
+                                                         ^^^^^^DATA STUCTURES:^^^^^^^^^
+In order to structurise the data ,to keep it efficient in trems of memory usage extracting information is called data structures .
+                                                DATA STURUCTERS:
+ LINEAR:                                                                                                    NON-LINEAR:
+ static:array                                                                                                graph
+ dynamic:list,stack,queue                                                                       tree
+
+LINKED LIST:
+List  of data or items linked with one another is called llist.Eg:Spotify
+
+Single Linked list operations:
+1.Insertion:
+	#inserting at the beginning 
+	#inserting at a position
+	#inserting at the end
