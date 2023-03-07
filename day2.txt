@@ -1,0 +1,47 @@
+<<Delete at the beginning:>>
+"temp=self.head
+ self.head=temp.next
+ temp.next=none"
+
+obj.display()
+obj.delete()
+obj.display()
+
+<<Deleting at the end:>>
+"
+Double linled list:Insertion at the beginning::::
+1.Create new node with 3 segments 
+2.New next=head
+3.head previous = new 
+4.new prev=null
+5.head= new node
+
+
+def insert_start(self):
+	n=Node(300)
+	temp=self.head
+	temp.prev=n
+	n.next=temp
+	self.head=n
+
+Insertion at the end of the list:::::
+         
+def insert_end(self):
+	n=Node(300)
+	temp=self.head
+	while temp.next is not None:
+	temp=temp.next
+	temp.next=n
+	n.prev=temp
+
+Insertion at the position of list::
+
+def insert_pos(self,pos):
+	n=Node(300)
+	temp=self.head
+	for  i in range (1,pos-1):
+	       temp=temp.next
+                   n.prev=temp	
+	n.next=temp.next
+	temp.next.prev=n
+	temp.next=n
