@@ -1,0 +1,29 @@
+--------------Stack:-----------------------
+
+>>>Stack can be implemented in 3 ways:
+1.List
+2.Linked list
+3.Queue
+
+>>>Operations in stack
+1.Push
+2.Pop
+3.Peek
+4.Empty or full
+
+
+
+Stack implementation using Linked list
+1.Push is inserting node at beginning.
+2.Pop is removing the head node.
+
+Types of queue :
+1>circular queue
+2>priority queue
+
+
+Circular queue:
+empty spaces in the queue is used once the queue is full still to add the elements in a circular way
+
+Insertion: 
+rear=rear+1
