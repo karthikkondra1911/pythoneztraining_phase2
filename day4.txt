@@ -1,0 +1,37 @@
+-----Circular queue=------
+:With linear queue ,empty scapes, hich we get after performing dequeue operations cannot be used .It is very much possible when we make that linear queue as circular queue
+
+it is a advantage of circular queue
+
+###################TREE###################
+In a tree nodes can have n number of children
+                                              a
+                                      /              \
+                               b                           c
+                           /   |     \                 /        \
+                   d           e         f           g            h
+                                                                   /       \
+                                                                  i           j
+                                                                             |
+                                                                             k
+Binary tree:A node can have maximum of to childs 
+                                                              1
+                                                           /    \
+                                                         2      3
+                                                       /   \     
+                                                     5     6
+Level order traversal: 1-2-3-5-6
+Note:
+we have to traverse level by level proceeding from left to right
+
+                                                        50
+                                                      /     \
+                                                20          45 
+                                             /       \      /      \ 
+                                          11        15    30   78  
+
+Tree traversal:
+1>Level order /Breadth for search :1.Preordered traversal
+                                       	    2.inorder traversal
+			    3.Postordered traversal
+2>depth for search 
